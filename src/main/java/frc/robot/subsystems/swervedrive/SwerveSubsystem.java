@@ -192,7 +192,7 @@ public class SwerveSubsystem extends SubsystemBase
       // if((headingX.getAsDouble() <= OperatorConstants.RIGHT_X_DEADBAND)/* && (headingY.getAsDouble() <= OperatorConstants.RIGHT_Y_DEADBAND)*/){
         this.zeroGyro();
       // }
-      SmartDashboard.putNumber("headingX", headingX.getAsDouble());
+      SmartDashboard.putNumber("XINPUT", xInput);
       SmartDashboard.putNumber("headingY", headingY.getAsDouble());
       // Make the robot move
       driveFieldOriented(swerveDrive.swerveController.getTargetSpeeds(xInput, yInput,

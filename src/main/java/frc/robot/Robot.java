@@ -73,10 +73,10 @@ public class Robot extends TimedRobot
     // and running subsystem periodic() methods.  This must be called from the robot's periodic
     // block in order for anything in the Command-based framework to work.
     
-    //FIXME limelight smartdashboard makrings
-    SmartDashboard.putNumber("tx", limelightTable.getEntry("tx").getDouble(0.0));
-    SmartDashboard.putNumber("ty", limelightTable.getEntry("ty").getDouble(0.0));
-    SmartDashboard.putNumber("ta", limelightTable.getEntry("ta").getDouble(0.0));
+    // //FIXME limelight smartdashboard makrings
+    // SmartDashboard.putNumber("tx", limelightTable.getEntry("tx").getDouble(0.0));
+    // SmartDashboard.putNumber("ty", limelightTable.getEntry("ty").getDouble(0.0));
+    // SmartDashboard.putNumber("ta", limelightTable.getEntry("ta").getDouble(0.0));
 
     CommandScheduler.getInstance().run();
   }
